@@ -1,6 +1,6 @@
-# Jupyter Notebooks
+# Dav/Devs Notebooks
 
-Repo to store the HTML generated versions of my Jupyter Notebooks
+My collection of Jupyter Notebooks.
 
 ## Order of Notebooks
 
