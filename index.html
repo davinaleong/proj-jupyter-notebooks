@@ -4,16 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dav/Devs Notebooks</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Logo - Colored.svg"
+      type="image/xml+svg"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-gray-50 text-gray-800 font-sans">
-    <main class="max-w-3xl mx-auto p-6">
-      <header>
-        <h1 class="text-4xl font-bold mb-6">Dav/Devs Notebooks</h1>
-      </header>
-      <article>
+  <body id="top" class="text-black bg-slate-100 ff-montserrat">
+    <header class="text-white bg-blue-500 p-2 static">
+      <nav class="wrapper flex items-center justify-between mx-auto gap-4">
+        <a
+          class="font-semibold"
+          href="https://portfolio.davinaleong.com/"
+          target="_blank"
+        >
+          Back to Portfolio
+        </a>
+
+        <a href="/" class="brand w-15">
+          <img src="./assets/images/Logo - Colored.svg" alt="Logo" />
+        </a>
+
+        <a class="font-semibold" href="#top"> Back to Top </a>
+      </nav>
+    </header>
+    <main class="main">
+      <article class="wrapper max-w-3xl mx-auto flow">
+        <header class="flow text-center text-white py-4">
+          <h1 class="text-4xl font-bold mb-6">Dav/Devs Notebooks</h1>
+          <p>
+            A web-based showcase of my Jupyter notebooks — clean, code-rich, and
+            ready to explore.
+          </p>
+        </header>
         <ol
-          class="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 list-decimal list-inside text-lg"
+          class="bg-white dark:bg-black p-2 shadow-md rounded grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 list-decimal list-inside text-lg"
         >
           <li>
             <a
@@ -122,16 +149,12 @@
         </ol>
       </article>
     </main>
-    <footer>
-      <p class="text-center py-2">
-        <small
-          ><em
-            >Davina's Jupyter Notebooks &copy;
-            <a href="/" class="text-blue-500 hover:underline">Davina Leong</a>,
-            2025</em
-          ></small
-        >
-      </p>
+    <footer class="text-white bg-blue-700">
+      <div class="wrapper mx-auto p-4">
+        <p class="text-center font-sm italic">
+          Dav/Devs Notebooks &copy; Davina Leong, 2025
+        </p>
+      </div>
     </footer>
   </body>
 </html>
